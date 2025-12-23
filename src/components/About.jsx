@@ -53,7 +53,7 @@ const About = () => {
             <motion.div variants={itemVariants}>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 Recent <span className="text-cyan-400 font-semibold">Master of Artificial Intelligence</span> graduate 
-                from Monash University with strong foundations in RAG pipelines, prompt engineering, and agentic AI systems.
+                from Monash University with strong foundations in ML, DL and NLP concepts, RAG pipelines and agentic AI systems.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 I'm passionate about transforming how organizations work through intelligent automation. My experience 
