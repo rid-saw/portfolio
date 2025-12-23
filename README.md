@@ -1,6 +1,6 @@
 # Riddhi Sawant - Portfolio
 
-My personal portfolio website showcasing my work as an AI/ML Engineer.
+My personal portfolio website showcasing my work as an AI/ML Engineer: 
 https://rid-saw.github.io/portfolio/ 
 
 ## About
