@@ -32,7 +32,7 @@ const Projects = () => {
         'Implemented autonomous task delegation and workflow orchestration',
       ],
       gradient: 'from-cyan-500 to-blue-500',
-      github: 'https://github.com/rid-saw/multi-agent-ai-tool.git',
+      github: 'https://github.com/rid-saw/multi-agent-ai-tool',
     },
     {
       title: 'SMEasy - AI Payment Gateway',
