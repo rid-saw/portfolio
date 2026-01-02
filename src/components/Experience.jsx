@@ -19,7 +19,7 @@ const Experience = () => {
         'Built real-time monitoring dashboards using Grafana, enabling remote access and data-driven decision making across the organisation',
         'Developed REST APIs and web interfaces for farm control systems, driving adoption of new technology across operations teams',
         'Programmed workflow automation using NodeRED, ESP32, and Raspberry Pi to orchestrate sensors, lighting, and irrigation systems',
-        'Delivered solutions in a lean 2-person engineering team, adapting quickly to changing priorities while keeping projects on track',
+        'Delivered solutions in a lean 3-person engineering team, adapting quickly to changing priorities while keeping projects on track',
         'Improved system reliability by 30% through systematic testing and iterative refinement',
       ],
       color: 'cyan',
