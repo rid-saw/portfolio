@@ -13,10 +13,10 @@ function App() {
       <Navigation />
       <Hero />
       <About />
-      <Skills />
-      <Certifications />
       <Projects />
       <Experience />
+      <Skills />
+      <Certifications />
       <Contact />
     </div>
   )

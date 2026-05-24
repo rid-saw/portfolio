@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaCertificate, FaAward, FaClock, FaCloud, FaCubes } from 'react-icons/fa'
+import { FaCertificate, FaAward, FaClock, FaAws, FaCubes } from 'react-icons/fa'
 
 const Certifications = () => {
   const [ref, inView] = useInView({
@@ -10,13 +10,13 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: 'Azure AI Associate',
-      provider: 'Microsoft',
+      title: 'AWS Certified ML Engineer – Associate',
+      provider: 'Amazon Web Services',
       status: 'In Progress',
-      date: 'Dec 2025 - Present',
-      description: 'Learning to design and implement AI solutions on Azure, including machine learning, computer vision, and natural language processing.',
-      icon: FaCloud,
-      color: 'from-cyan-500 to-blue-500',
+      date: 'May 2026 - Present',
+      description: 'MLA-C01 certification covering data preparation, ML model development, deployment and orchestration, and monitoring/maintenance/security of ML solutions on AWS.',
+      icon: FaAws,
+      color: 'from-orange-500 to-yellow-500',
       inProgress: true,
     },
     {

@@ -9,18 +9,30 @@ const Experience = () => {
 
   const experiences = [
     {
+      role: 'Teaching Assistant',
+      company: 'Monash University',
+      location: 'Melbourne, Australia',
+      period: 'Feb 2026 – Present',
+      type: 'Multi-Agent Systems',
+      responsibilities: [
+        'Translate multi-agent AI theory into working Python code for graduate students, covering agent architectures, coordination protocols, model training, and fine-tuning workflows',
+        'Evaluate graduate student implementations for correctness, robustness, and design quality',
+        'Provide structured technical feedback on architecture decisions, code quality, and model performance',
+      ],
+      color: 'cyan',
+    },
+    {
       role: 'Mechatronics Engineer',
       company: 'Future Farms',
       location: 'Kuala Lumpur, Malaysia',
       period: 'Oct 2022 – Nov 2023',
       type: 'AgTech Startup',
       responsibilities: [
-        'Designed and deployed end-to-end automation systems for a 0.5-acre vertical farm, integrating sensors, control logic, and monitoring dashboards',
-        'Built real-time monitoring dashboards using Grafana, enabling remote access and data-driven decision making across the organisation',
-        'Developed REST APIs and web interfaces for farm control systems, driving adoption of new technology across operations teams',
-        'Programmed workflow automation using NodeRED, ESP32, and Raspberry Pi to orchestrate sensors, lighting, and irrigation systems',
-        'Delivered solutions in a lean 3-person engineering team, adapting quickly to changing priorities while keeping projects on track',
-        'Improved system reliability by 30% through systematic testing and iterative refinement',
+        'Promoted to full-time Mechatronics Engineer after one month as an intern',
+        'Designed and shipped integrated control systems for a 0.5-acre vertical farm facility, programming ESP32 microcontrollers and Raspberry Pi using Python and NodeRED to automate sensors, lighting, and irrigation',
+        'Built end-to-end IoT data pipeline from physical sensor deployment to MongoDB storage and Grafana dashboards, enabling real-time remote monitoring of 30+ environmental sensors',
+        'Developed REST APIs and web interfaces for distributed farm control systems, connecting hardware nodes to a software control layer accessible from any device',
+        'Owned full project lifecycle in a lean 3-person engineering team from concept to deployment',
       ],
       color: 'cyan',
     },
@@ -31,9 +43,8 @@ const Experience = () => {
       period: 'Nov 2021 – Feb 2022',
       type: 'Telecommunications',
       responsibilities: [
-        'Analysed network coverage data and generated visualisation plots using Python, enabling data-driven network optimisation',
-        'Collaborated with cross-functional engineering teams to identify improvement opportunities and drive efficiency gains',
-        'Adapted quickly to new tools and methodologies in a fast-paced telecommunications environment',
+        'Used Python to analyse and visualise network coverage data for RF performance assessment',
+        'Collaborated with senior engineers on data-driven network optimisation',
       ],
       color: 'blue',
     },
