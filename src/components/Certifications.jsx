@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaCertificate, FaAward, FaClock, FaAws, FaCubes } from 'react-icons/fa'
+import { FaCertificate, FaAward, FaClock, FaAws } from 'react-icons/fa'
 
 const Certifications = () => {
   const [ref, inView] = useInView({
@@ -17,16 +17,6 @@ const Certifications = () => {
       description: 'MLA-C01 certification covering data preparation, ML model development, deployment and orchestration, and monitoring/maintenance/security of ML solutions on AWS.',
       icon: FaAws,
       color: 'from-orange-500 to-yellow-500',
-      inProgress: false,
-    },
-    {
-      title: 'Certified SolidWorks Associate',
-      provider: 'Dassault Systèmes',
-      status: 'Certified',
-      date: 'June 2020 - Present',
-      description: 'Professional certification in 3D CAD design using SolidWorks.',
-      icon: FaCubes,
-      color: 'from-purple-500 to-pink-500',
       inProgress: false,
     },
     // Add more certifications here as you complete them
