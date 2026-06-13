@@ -10,14 +10,14 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: 'AWS Certified ML Engineer – Associate',
+      title: 'AWS Certified Machine Learning Engineer – Associate',
       provider: 'Amazon Web Services',
-      status: 'In Progress',
-      date: 'May 2026 - Present',
+      status: 'Certified',
+      date: 'June 2026',
       description: 'MLA-C01 certification covering data preparation, ML model development, deployment and orchestration, and monitoring/maintenance/security of ML solutions on AWS.',
       icon: FaAws,
       color: 'from-orange-500 to-yellow-500',
-      inProgress: true,
+      inProgress: false,
     },
     {
       title: 'Certified SolidWorks Associate',
