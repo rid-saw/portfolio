@@ -11,12 +11,13 @@ const Projects = () => {
   const projects = [
     {
       title: 'RAG Research Assistant',
-      description: 'End-to-end RAG pipeline for querying academic papers with source-level citations. PDF ingestion, chunking, embedding generation, vector storage in ChromaDB, and LLM-powered synthesis — all with performance metrics tracking.',
-      tech: ['Python', 'LangChain', 'ChromaDB', 'Gemini', 'Sentence Transformers', 'Gradio'],
+      description: 'End-to-end agentic RAG system for querying academic papers with grounded, source-cited answers. Upload PDFs or paste DOIs (resolved via arXiv + Unpaywall) into named libraries; hybrid retrieval and reranking with answers streamed over Server-Sent Events with visible pipeline stages.',
+      tech: ['Python', 'FastAPI', 'React + TypeScript', 'ChromaDB', 'BGE + CrossEncoder', 'Mistral', 'MCP SDK', 'Docker'],
       highlights: [
-        'Hybrid retrieval combining 60% semantic vector search and 40% BM25 keyword matching',
-        'Automated training-data generation pipeline using the Claude API to produce quality query-context pairs',
-        'Gradio interface with live tracking of retrieval latency and end-to-end response time',
+        'Hybrid retrieval (60% BGE semantic + 40% BM25) with BGE CrossEncoder reranking, streamed over SSE',
+        'Corrective RAG (CRAG): an LLM grader gates generation or falls back to Tavily web search on user consent, with a refusal token catching over-confident answers',
+        'MCP server (official Python SDK) exposes four tools so Claude Desktop and other MCP clients query the same pipeline over stdio',
+        'Provider-agnostic LLM client (one env var swaps Mistral / OpenAI / Groq / OpenRouter / Gemini); multi-stage Docker build deployed to Hugging Face Spaces',
       ],
       gradient: 'from-blue-500 to-purple-500',
       github: 'https://github.com/rid-saw/RAG-research-assistant',
