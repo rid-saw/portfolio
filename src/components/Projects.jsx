@@ -24,7 +24,7 @@ const Projects = () => {
       demo: 'https://huggingface.co/spaces/rid-saw/rag-research-assistant',
     },
     {
-      title: 'mnemo',
+      title: 'Mnemo',
       description: 'Full-stack notes-to-study-tools web app. FastAPI backend ingests .md/.txt notes and prompts an LLM to generate flashcard decks, scenario-based MCQ quizzes, and navigable domain ontologies — all grounded in the source material — served to a React + Vite frontend with in-browser study UIs.',
       tech: ['Python', 'FastAPI', 'React', 'Vite', 'Jinja2', 'Gemini', 'Anthropic', 'OpenAI', 'Claude Artifacts'],
       highlights: [
